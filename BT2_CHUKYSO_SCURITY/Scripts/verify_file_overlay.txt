@@ -1,0 +1,55 @@
+=== KIỂM TRA XÁC THỰC CHỮ KÝ PDF ===
+Thời gian kiểm thử: 2025-10-31 19:10:52.899325
+File kiểm tra: D:\BAITAP\BT_ATBMTT\BT2_CHUKYSO_SCURITY\signed_with_overlay.pdf
+====================================
+🔍 Phát hiện chữ ký: DigitalSign_1
+/ByteRange: [0, 307988, 313114, 827]
+/Contents length: 2562 bytes
+SHA-256(ByteRange): 080a6a578f23531c62d3e75db271fea53e55bc6d03c3891ef82eae5d3f38d475... ✅
+====================================
+🔒 Đang xác thực chữ ký...
+Signer info
+-----------
+Certificate subject: "Common Name: Tran Thi Thu Ha, Organization: 58KTP, Locality: Thai Nguyen, State/Province: Thai Nguyen, Country: VN"
+Certificate SHA1 fingerprint: ffca01c3f2deb4e6af5edb4c97d69d49df42127a
+Certificate SHA256 fingerprint: ec5d89a4fbd208b9defe718de8abe2282dd392961907f32185139a5ba0147c0e
+Trust anchor: "No path to trust anchor found."
+The signer's certificate is untrusted.
+
+
+Integrity
+---------
+The signature is cryptographically unsound.
+
+The digest algorithm used was 'sha256'.
+The signature mechanism used was 'sha256_rsa'.
+
+
+Signing time
+------------
+Signing time as reported by signer: 2025-10-31T11:54:24+00:00
+
+
+Modifications
+-------------
+The signature does not cover the entire file.
+Some modifications may be illegitimate, and they appear to be incompatible with the current document modification policy.
+
+
+Bottom line
+-----------
+The signature is judged INVALID.
+
+
+
+📜 Thông tin chứng thư người ký:
+  Chủ thể: Common Name: Tran Thi Thu Ha, Organization: 58KTP, Locality: Thai Nguyen, State/Province: Thai Nguyen, Country: VN
+  SHA1 fingerprint: FF CA 01 C3 F2 DE B4 E6 AF 5E DB 4C 97 D6 9D 49 DF 42 12 7A
+  SHA256 fingerprint: EC 5D 89 A4 FB D2 08 B9 DE FE 71 8D E8 AB E2 28 2D D3 92 96 19 07 F3 21 85 13 9A 5B A0 14 7C 0E
+🕒 Thời gian ký (VN): 2025-10-31 18:54:24+07:00
+❌ File đã bị thay đổi sau khi ký!
+====================================
+❌ CHỮ KÝ KHÔNG HỢP LỆ hoặc FILE BỊ SỬA ĐỔI.
+⚠️ Lý do thường gặp: chứng thư tự ký (self-signed), không có nonRepudiation, hoặc không thuộc CA tin cậy.
+
+📄 Log đã lưu tại: D:\BAITAP\BT_ATBMTT\BT2_CHUKYSO_SCURITY\Scripts\verify_file_overlay.txt
