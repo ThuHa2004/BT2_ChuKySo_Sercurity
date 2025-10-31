@@ -11,7 +11,7 @@ Thực hiện báo cáo và thực hành: phân tích và hiện thực việc n
 File: `original.pdf`
 ### 2. Tạo file sinh khóa RSA và chứng thư số
 Sinh khóa RSA và chứng thư số mục đích là để xác thực chữ ký số và ký 
-Tạo một file `genn_key.py`, sau khi chạy file này sẽ sinh ra hai file `signer_cert.pem` và file `signer_key.pem`
+Tạo một file `genn_key.py`, sau khi chạy file này sẽ sinh ra hai file `signer_cert.pem` (chứng thư) và file `signer_key.pem` (private key)
 ### 3. Tạo chữ ký và ký file PDF
 - Ta sẽ thực hiện tạo Signature field (AcroForm) và reserve vùng /Contents (8192 bytes), xác định /ByteRange để loại trừ vùng /Contents khỏi hash) và tính Hash (SHA-256) trên vùng ByteRange. Sinh PKCS#7 detached signature và chèn blob DER PKCS#7 vào /Contents đúng offset bằng file `sign_pdf.py`. 
 - Sau khi chạy lệnh `python sign_pdf.py` thì các bước trên đã được thực hiện và tạo ra một file mới đã được ký chữ ký số hợp lệ`signed_output.pdf`
